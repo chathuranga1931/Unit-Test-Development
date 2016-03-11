@@ -414,13 +414,13 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend="kube2_mainfw configuration\startup_stm32f072xb.d" -o"kube2_mainfw
- configuration\startup_stm32f072xb.o" -I"E:\Electronic\2016\Zone24x7\26. Firmwa
-re Development\KUBE2_Firmware\ver2\MDK-ARM\RTE" -IC:\Keil_v5\ARM\PACK\ARM\CMSIS
-\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Incl
-ude --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__
-UVISION_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefine="STM32F072 SET
-A 1" --list=startup_stm32f072xb.lst ../Drivers/CMSIS/Device/ST/STM32F0xx/Source
-/Templates/arm/startup_stm32f072xb.s
+ configuration\startup_stm32f072xb.o" -I"E:\Electronic\2016\Zone24x7\27. Unit T
+est Development\Unit-Test-Development\Firmware\ver2\MDK-ARM\RTE" -IC:\Keil_v5\A
+RM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\
+1.4.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1
+" --predefine="__UVISION_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefi
+ne="STM32F072 SETA 1" --list=startup_stm32f072xb.lst ../Drivers/CMSIS/Device/ST
+/STM32F0xx/Source/Templates/arm/startup_stm32f072xb.s
 
 
 

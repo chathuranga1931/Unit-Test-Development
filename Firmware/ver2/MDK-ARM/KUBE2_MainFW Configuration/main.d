@@ -45,8 +45,3 @@ kube2_mainfw configuration\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 kube2_mainfw configuration\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 kube2_mainfw configuration\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 kube2_mainfw configuration\main.o: ../Inc/gpio.h
-kube2_mainfw configuration\main.o: ../Inc/system.h
-kube2_mainfw configuration\main.o: ../Inc/led.h
-kube2_mainfw configuration\main.o: ../Inc/btn.h
-kube2_mainfw configuration\main.o: ../Inc/barcode.h
-kube2_mainfw configuration\main.o: ../Inc/rfid.h

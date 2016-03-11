@@ -21,17 +21,113 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
 Dialog DLL:      TARMCM1.DLL V1.9.0.0
  
 <h2>Project:</h2>
-E:\Electronic\2016\Zone24x7\26. Firmware Development\KUBE2_Firmware\ver2\MDK-ARM\KUBE2_MainFW.uvprojx
+E:\Electronic\2016\Zone24x7\27. Unit Test Development\Unit-Test-Development\Firmware\ver2\MDK-ARM\KUBE2_MainFW.uvprojx
 Project File Date:  03/10/2016
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'KUBE2_MainFW Configuration'
-compiling barcode.c...
+assembling startup_stm32f072xb.s...
 compiling main.c...
-linking...
-Program Size: Code=14240 RO-data=240 RW-data=272 ZI-data=3080  
-"KUBE2_MainFW Configuration\KUBE2_MainFW Configuration.axf" - 0 Error(s), 0 Warning(s).
+../Src/main.c(81): error:  #20: identifier "com" is undefined
+    com.st.microxplorer.codegenerator.fctDefinition@6c7e46c0();
+../Src/main.c(81): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@6c7e46c0();
+../Src/main.c(81): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@6c7e46c0();
+../Src/main.c(82): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@3b419508();
+../Src/main.c(82): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@3b419508();
+../Src/main.c(83): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@6b23fda();
+../Src/main.c(83): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@6b23fda();
+../Src/main.c(84): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@29cb03ad();
+../Src/main.c(84): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@29cb03ad();
+../Src/main.c(85): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@379d0812();
+../Src/main.c(85): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@379d0812();
+../Src/main.c(86): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@43323c();
+../Src/main.c(86): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@43323c();
+../Src/main.c(87): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@17989101();
+../Src/main.c(87): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@17989101();
+../Src/main.c(88): error:  #7: unrecognized token
+    com.st.microxplorer.codegenerator.fctDefinition@663f3e34();
+../Src/main.c(88): error:  #65: expected a ";"
+    com.st.microxplorer.codegenerator.fctDefinition@663f3e34();
+../Src/main.c(101): warning:  #223-D: function "btn_Read" declared implicitly
+  		if(btn_Read(BTN1) == GPIO_PIN_RESET)
+../Src/main.c(101): error:  #20: identifier "BTN1" is undefined
+  		if(btn_Read(BTN1) == GPIO_PIN_RESET)
+../Src/main.c(103): warning:  #223-D: function "rfid_FT_UartBridge_Reset" declared implicitly
+  			rfid_FT_UartBridge_Reset();
+../Src/main.c(105): warning:  #223-D: function "led_Turn_On" declared implicitly
+  			led_Turn_On(LED0);		
+../Src/main.c(105): error:  #20: identifier "LED0" is undefined
+  			led_Turn_On(LED0);		
+../Src/main.c(106): error:  #20: identifier "i" is undefined
+  			for(i = 0; i < 1000000; i++);
+../Src/main.c(108): warning:  #223-D: function "led_Turn_Off" declared implicitly
+  			led_Turn_Off(LED0);
+../Src/main.c(109): error:  #20: identifier "i" is undefined
+  			for(i = 0; i < 1000000; i++);
+../Src/main.c(113): warning:  #223-D: function "rfid_Turn_On" declared implicitly
+  			rfid_Turn_On();
+../Src/main.c(115): warning:  #223-D: function "led_Turn_On" declared implicitly
+  			led_Turn_On(LED2);			
+../Src/main.c(115): error:  #20: identifier "LED2" is undefined
+  			led_Turn_On(LED2);			
+../Src/main.c(116): error:  #20: identifier "i" is undefined
+  			for(i = 0; i < 1000000; i++);
+../Src/main.c(118): warning:  #223-D: function "led_Turn_Off" declared implicitly
+  			led_Turn_Off(LED2);
+../Src/main.c(119): error:  #20: identifier "i" is undefined
+  			for(i = 0; i < 1000000; i++);
+../Src/main.c: 7 warnings, 24 errors
+compiling system_stm32f0xx.c...
+compiling usart.c...
+compiling usbd_desc.c...
+compiling gpio.c...
+compiling usb_device.c...
+compiling stm32f0xx_hal_msp.c...
+compiling stm32f0xx_it.c...
+compiling tim.c...
+compiling adc.c...
+compiling i2c.c...
+compiling usbd_conf.c...
+compiling stm32f0xx_hal_uart_ex.c...
+compiling stm32f0xx_hal_gpio.c...
+compiling stm32f0xx_hal_uart.c...
+compiling stm32f0xx_hal_flash_ex.c...
+compiling stm32f0xx_hal_rcc_ex.c...
+compiling stm32f0xx_hal_tim.c...
+compiling stm32f0xx_hal_adc.c...
+compiling stm32f0xx_hal_rcc.c...
+compiling stm32f0xx_hal_pwr_ex.c...
+compiling stm32f0xx_hal_adc_ex.c...
+compiling stm32f0xx_hal_pwr.c...
+compiling stm32f0xx_hal_dma.c...
+compiling stm32f0xx_hal_i2c_ex.c...
+compiling stm32f0xx_hal_i2c.c...
+compiling stm32f0xx_hal.c...
+compiling stm32f0xx_hal_flash.c...
+compiling stm32f0xx_hal_pcd.c...
+compiling stm32f0xx_hal_pcd_ex.c...
+compiling stm32f0xx_hal_tim_ex.c...
+compiling stm32f0xx_hal_cortex.c...
+compiling usbd_ioreq.c...
+compiling usbd_core.c...
+compiling usbd_hid.c...
+compiling usbd_ctlreq.c...
+"KUBE2_MainFW Configuration\KUBE2_MainFW Configuration.axf" - 24 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -42,14 +138,15 @@ Package Vendor: ARM
    * Component: CORE Version: 4.3.0
 
 <h2>Collection of Component include folders:</h2>
-  E:\Electronic\2016\Zone24x7\26. Firmware Development\KUBE2_Firmware\ver2\MDK-ARM\RTE
+  E:\Electronic\2016\Zone24x7\27. Unit Test Development\Unit-Test-Development\Firmware\ver2\MDK-ARM\RTE
   C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
   C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:4.3.0
-Build Time Elapsed:  00:00:01
+Target not created.
+Build Time Elapsed:  00:00:18
 </pre>
 </body>
 </html>

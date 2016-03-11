@@ -76,7 +76,8 @@ int main(void)
 
   /* Configure the system clock */
   SystemClock_Config();
-
+//commit for command
+	
   /* Initialize all configured peripherals */
   com.st.microxplorer.codegenerator.fctDefinition@6c7e46c0();
   com.st.microxplorer.codegenerator.fctDefinition@3b419508();
