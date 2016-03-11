@@ -1,0 +1,108 @@
+Configuration	KUBE2_MainFW
+STM32CubeMX 	4.12.0
+Date	03/02/2016
+MCU	STM32F072RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN8	ADC_IN8	PB0
+ADC	IN14	ADC_IN14	PC4
+ADC	IN15	ADC_IN15	PC5
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+SYS	Serial-WireDebug	SYS_SWCLK	PA14
+SYS	Serial-WireDebug	SYS_SWDIO	PA13
+TIM2	Input Capture direct mode	TIM2_CH1	PA0
+TIM2	Input Capture direct mode	TIM2_CH2	PA1
+TIM3	PWM Generation CH2	TIM3_CH2	PB5
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+TIM14	Input Capture direct mode	TIM14_CH1	PA4
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN	RCC_OSC32_IN	OSC32_IN
+4	PC15-OSC32_OUT	RCC_OSC32_OUT	OSC32_OUT
+5	PF0-OSC_IN	RCC_OSC_IN	OSC_IN
+6	PF1-OSC_OUT	RCC_OSC_OUT	OSC_OUT
+8	PC0	GPIO_Output	REG_A_5V_EN
+9	PC1	GPIO_Output	REG_B_5V_EN
+10	PC2	GPIO_Output	REG_12V_EN
+11	PC3	GPIO_Output	REG_3V3_EN
+14	PA0	TIM2_CH1	RFID_HEALTH
+15	PA1	TIM2_CH2	RFID_STATUS
+16	PA2	USART2_TX	DEBUG_UART_TX
+17	PA3	USART2_RX	DEBUG_UART_RX
+20	PA4	TIM14_CH1	BCR_BEEPER_CAPTURE
+21	PA5	GPIO_Output	PROX_IR_0_EN
+22	PA6	GPIO_Output	PROX_IR_1_EN
+23	PA7	GPIO_Output	PROX_IR_2_EN
+24	PC4	ADC_IN14	PROX_IR_0
+25	PC5	ADC_IN15	PROX_IR_1
+26	PB0	ADC_IN8	PROX_IR_2
+27	PB1	GPIO_Input	BD_ID0
+28	PB2	GPIO_Input	BD_ID1
+29	PB10	GPIO_Input	BD_ID2
+30	PB11	GPIO_Input	BD_ID3
+33	PB12	GPIO_Output	RFID_NRST
+34	PB13	GPIO_Output	RFID_NEN
+35	PB14	GPIO_Output	FT_NRST
+36	PB15	GPIO_Input	RFID_GPIO0/DIP_SW0
+37	PC6	GPIO_Input	RFID_GPIO1/DIP_SW1
+38	PC7	GPIO_Input	RFID_GPIO2/DIP_SW2
+40	PC9	GPIO_Output	RFID_BOOT0
+41	PA8	GPIO_Output	RFID_WKUP
+42	PA9	GPIO_Input	BTN0
+43	PA10	GPIO_Input	BTN1
+44	PA11	USB_DM	
+45	PA12	USB_DP	
+46	PA13	SYS_SWDIO	
+49	PA14	SYS_SWCLK	
+50	PA15	GPIO_Output	LED_0
+51	PC10	GPIO_Output	LED_1
+52	PC11	GPIO_Output	LED_2
+53	PC12	GPIO_Output	AMP_GAIN0
+54	PD2	GPIO_Output	AMP_GAIN1
+55	PB3	GPIO_Output	AMP_MUTE
+56	PB4	GPIO_Output	AMP_STBY
+57	PB5	TIM3_CH2	BUZZER_PWM
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+61	PB8	GPIO_EXTI8	TEMP_SHUTDOWN
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : KUBE2_MainFW
+Project Folder : E:\PROJECTS\KUBE2\Workspace\2016-03-02\KUBE2_Firmware
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F0 V1.4.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Add necessary library files as reference in the toolchain project configuration file
+Generate peripheral initialization as a pair of '.c/.h' files per IP : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
